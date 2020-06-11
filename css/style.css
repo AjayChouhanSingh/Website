@@ -606,7 +606,7 @@ li>a:only-child:after {
 /* bannner bottom */
 h3.title-w3 {
     font-size: 42px;
-    color: #719cfe;
+    color: black;
 }
 
 .services h3.title-w3,
@@ -650,7 +650,7 @@ h3.title-sub span {
 
 .w3pvtits-services-grids span.ser-icon {
     font-size: 2em;
-    color: #ff7f62;
+    color: #FFB800;
     width: 70px;
     height: 70px;
     line-height: 2.2;
@@ -675,7 +675,7 @@ a.service-btn {
     font-size: 15px;
     display: inline-block;
     letter-spacing: 1px;
-    background: #ff7f62;
+    background: #FFB800;
     padding: 10px 16px;
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -799,7 +799,7 @@ h5.card-title a {
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 1px;
-    background: #719cfe;
+    background: black;
     padding: 1em;
     display: block;
 }
@@ -1023,7 +1023,7 @@ ul.apps-lists li a.active span {
     padding: 15px 0;
     font-size: 14px;
     color: #fff;
-    background: #719cfe;
+    background: black;
     border: none;
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -1113,7 +1113,7 @@ p.dont-do a:hover,
 
 /* footer */
 footer {
-    background: #ff7f62;
+    background: #FFB800;
 }
 
 .footer-grid h3 {
