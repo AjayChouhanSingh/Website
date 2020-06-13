@@ -126,7 +126,7 @@ a.move-top span {
 {
     color: #FFB800;
     text-decoration:none;
-    padding:5px 20px;
+    padding:5px 10px;
     font-family:"Roboto",sans-serif;
     font-size:15px;
     position:sticky;
@@ -209,17 +209,17 @@ a.move-top span {
 /* Giving a background-color to the nav container. */
 nav {
     margin: 0;
-    padding: 0;
+    padding: 0%;
 }
 
 #logo a {
     float: left;
     display: initial;
     font-weight: 600;
-    font-size: 35px;
+    font-size: 40px;
     color: black;
     text-shadow: 2px 5px 3px rgba(0, 0, 0, 0.06);
-
+    margin-left: 20%;
 }
 
 /* Since we'll have the "ul li" "float:left"
@@ -234,7 +234,7 @@ nav:after {
  * and adding "position:reltive" */
 nav ul {
     /* float: right; */
-    padding: 0;
+    padding: 5;
     margin: 0;
     list-style: none;
     position: relative;
@@ -245,6 +245,7 @@ nav ul li {
     margin: 0px;
     display: inline-block;
     float: left;
+    padding: -20%;
 }
 
 /* Styling the links */
