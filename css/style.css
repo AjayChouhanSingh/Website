@@ -167,7 +167,7 @@ a.move-top span {
 }
 .nav-link
 {
-    color:orange!important;
+    color:#FFB800!important;
     font-weight:600;
     font-size:16px;
 }   
@@ -175,13 +175,12 @@ a.move-top span {
 #Slider
 {
     width:100%;
-    background-color:rgba(0,0,0,0.7);
 }
 
 .overlay { 
   color:#fff;
   position:absolute;
-  z-index:12;
+  z-index:8;
   top:50%;
   left:20%;
   width:100%;
@@ -300,10 +299,11 @@ nav ul li:hover>ul {
 
 /* Fisrt Tier Dropdown */
 nav ul ul li {
-    width: 170px;
+    width: 110px;
     float: none;
     display: list-item;
     position: relative;
+    align: center;
 }
 
 nav ul ul li a {
@@ -311,6 +311,8 @@ nav ul ul li a {
     font-size: 14px;
     margin: 10px 0;
     letter-spacing: 1px;
+    align:center;
+    color:#ffb800;
 }
 
 /* Second, Third and more Tiers	
@@ -974,10 +976,10 @@ h3.title-w3-2 {
 
 .contact_grid_right button {
     outline: none;
-    padding: 15px 0;
+    padding: 15px;
     font-size: 14px;
-    color: #fff;
-    background: black;
+    color: white;
+    background: #FFB800;
     border: none;
     border-radius: 0px;
     -webkit-border-radius: 0px;
@@ -999,7 +1001,7 @@ h3.title-w3-2 {
 
 /* inner banner */
 .inner-banner-w3ls {
-    background: url(../images/banner.jpg) no-repeat center;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.3)),url(../images/banner3.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1038,7 +1040,7 @@ button.button-style-w3 {
     padding: 12px 20px;
     font-size: 14px;
     color: #fff;
-    background: #ff7f62;
+    background: #FFB800;
     border: none;
     border-radius: 0px;
     letter-spacing: 1px;
@@ -1926,3 +1928,54 @@ p.copy-right-grids a:hover {
 }
 
 /* //responsive */
+/* login_register */
+.home
+{
+    width: 100%;
+    height: 150px;
+    padding-top: 79px;
+    background: white;
+}
+.home_container 
+{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 43px;
+}
+.home_title
+{
+    font-size: 36px;
+    color: #FFB800;
+    font-weight: 700;
+    line-height: 0.75;
+}
+.breadcrumbs
+{
+    margin-top: 15px;
+}
+.breadcrumbs ul li
+{
+    position: relative;
+}
+.breadcrumbs ul li:not(:last-of-type)::after
+{
+    display: inline-block;
+    content: '/';
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffb800;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+.breadcrumbs ul li,
+.breadcrumbs ul li a
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffb800;
+}
+.breadcrumbs ul li a:hover
+{
+    color: black;
+}
+
