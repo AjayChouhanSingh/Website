@@ -1552,6 +1552,8 @@ p.copy-right-grids a:hover {
 @media(max-width: 414px) {
     .style-banner h3 {
         font-size: 30px;
+        margin-top: -21rem;
+        margin-right: 10rem;
     }
 
     .style-banner {
