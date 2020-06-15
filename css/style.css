@@ -1591,12 +1591,15 @@ p.copy-right-grids a:hover {
 
     .style-banner h3 {
         font-size: 28px;
+        margin-top: -20rem;
+        margin-right: 8rem;
     }
 }
 
 @media(max-width: 375px) {
     h3.title-w3 {
-        font-size: 30px;
+        font-size: 28px;
+
     }
 
     .w3pvtits-services-grids {
